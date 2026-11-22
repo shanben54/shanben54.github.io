@@ -1,0 +1,7 @@
+/* 首页杂志风封面：去掉背景模糊，暗色遮罩调淡，让封面更清晰 */
+#recent-posts .post_cover:before,
+.post_cover:before {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  background: rgba(18, 18, 18, 0.22) !important;
+}
